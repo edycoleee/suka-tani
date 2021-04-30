@@ -1,0 +1,23 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyBKRTzs1wcqS_Yg9acJeuN0FMLI3A6g7KE",
+  authDomain: "rsud-suka.firebaseapp.com",
+  projectId: "rsud-suka",
+  storageBucket: "rsud-suka.appspot.com",
+  messagingSenderId: "957032045455",
+  appId: "1:957032045455:web:637eabf19b1c86e77e89fa"
+};
+
+…or create a new repository on the command line
+echo "# suka-tani" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/edycoleee/suka-tani.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/edycoleee/suka-tani.git
+git branch -M main
+git push -u origin main
+
+firebase deploy --only firestore:rules
